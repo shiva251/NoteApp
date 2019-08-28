@@ -1,0 +1,57 @@
+.sidenav {
+    width: 20%;
+    height: 702px;
+    background-color: #5e5e5e;
+    color: white;
+    font-size: 20px;
+    float: left;
+    position: fixed;
+    margin-top: 50px;
+}
+ul li  {
+    list-style-type: none;
+    /* color: white; */
+}
+li a {
+    color: white;
+}
+.newfolder {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+
+form{
+    max-width: 30em;
+    margin: 4em auto;
+    position: fixed;
+    overflow: hidden;
+  }
+
+  form input[type=text]::placeholder{
+    color:#666;
+  }
+  form .data{
+    margin-top: 1em;
+  }
+  form .data li{
+    background: #fff;
+    padding: 1em;
+    margin: 1em auto;
+    color: #666;
+    font-family: "Raleway";
+  }
+  form .data li i{
+    float: right;
+    color: #888;
+    cursor: pointer;
+  }
+
+  form .form-control{
+    height: 3em;
+  }
+  form .form-control:focus{
+    box-shadow: 0;
+  }
+  
